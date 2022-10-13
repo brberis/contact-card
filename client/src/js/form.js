@@ -1,3 +1,5 @@
+const form = document.getElementById("formToggle");
+
 export const toggleForm = () => {
   if (form.style.display === "none") {
     form.style.display = "block";
@@ -9,5 +11,5 @@ export const toggleForm = () => {
 export const clearForm = () => {
   document.getElementById("name").value = "";
   document.getElementById("phone").value = "";
-  document.getElementById("email").value = "";
+  document.getElementById("email").value = "";   
 }
